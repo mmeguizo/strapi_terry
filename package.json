@@ -1,0 +1,41 @@
+{
+  "name": "studio-raceready-com-au",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "devenv": "dotenv -e .env -- strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.20.0",
+    "@strapi/plugin-users-permissions": "5.20.0",
+    "@strapi/provider-upload-aws-s3": "^5.20.0",
+    "@strapi/strapi": "5.20.0",
+    "mysql2": "3.9.8",
+    "nodemailer": "^7.0.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "c97dbf2c-b7e0-4576-805b-70754d589794",
+    "installId": "2d276860be33c67e4a95ff0dc76b00dd78760c9f1283e764151ebb43e82de6f1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^10.0.0"
+  }
+}

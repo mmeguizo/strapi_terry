@@ -1,0 +1,69 @@
+### Node ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+*.tgz
+
+### Runtime / Environment ###
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+
+### Strapi / Uploads / DB ###
+/public/uploads/
+/public/avatars/
+/public/media/
+/database/
+/database.sqlite
+/data.db
+/tmp/
+/.cache/
+
+### Build outputs ###
+/build/
+/dist/
+/.next/
+/.parcel-cache/
+
+### Vite ###
+/node_modules/.vite/
+/.vite
+
+### Logs ###
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+### OS files ###
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon\r
+
+### Editors ###
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+### Jest / Test ###
+/coverage/
+
+### Misc ###
+/.envrc
+.firebase/
+.serverless/
+.DS_Store
+
+### Optional: keep empty directories ###
+!.gitkeep
